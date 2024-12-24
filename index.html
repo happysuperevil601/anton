@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FFFFFF" />
+
+    <meta
+      name="description"
+      content="My name is Anton, I come from Croatia and I'm actively learning
+    swift to become an iOS developer."
+    />
+
+    <meta
+      property="og:title"
+      content="Portfolio - Anton Didenko, iOS Developer"
+    />
+    <meta
+      property="og:description"
+      content="My name is Anton, I come from Croatia and I'm actively learning
+      swift to become an iOS developer."
+    />
+    <meta
+      property="og:image"
+      content="https://AntonDidenko.github.io/img/AntonDidenko-dev-portfolio.png"
+    />
+    <meta property="og:url" content="https://AntonDidenko.github.io/" />
+    <meta
+      property="og:site_name"
+      content="Portfolio - Anton Didenko, iOS Developer"
+    />
+
+    <link rel="apple-touch-icon" href="img/apple-icon.png" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
+
+    <link rel="stylesheet" href="style.css?v=2.0" />
+    <title>Portfolio - Anton Didenko, iOS Developer</title>
+  </head>
+  <body ontouchstart="">
+    <section class="hero">
+      <img
+        src="img/decoration/grid-dots.png"
+        alt="grid-dots"
+        class="grid__dots"
+      />
+      <div class="decoration__element">&nbsp;</div>
+      <div class="decoration__element2">&nbsp;</div>
+      <div class="hero__info">
+        <img class="hero__info-img" src="img/profile-pic.jpg" alt="profile__photo">
+        <div class="hero__text">
+          <h1>Anton Didenko</h1>
+          <span class="hero__text-desc">iOS/Android Developer at Upwork</span>
+        </div>
+      </div>
+      <div class="hero__cta">
+        <span>portfolio</span>
+        <div class="hero__cta-icon">
+          <svg class="hero__icon">
+            <use xlink:href="/icons/sprite.svg#vector-arrow"></use>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="stayfitshop">
+      <div class="stayfitshop__slider slider">
+        <div class="slider__next slider__btn no__highlights">
+          <svg class="slider__next-icon slider__icon">
+            <use xlink:href="/icons/sprite.svg#vector-arrow"></use>
+          </svg>
+        </div>
+        <div class="slider__prev slider__btn no__highlights">
+          <svg class="slider__prev-icon slider__icon">
+            <use xlink:href="/icons/sprite.svg#vector-arrow"></use>
+          </svg>
+        </div>
+        <div class="stayfitshop__slider-container slider-container">
+        
+          <img
+            class="slide"
+            data-src="img/slides/butterfly_1.png"
+            src="img/slides/butterfly_2.png"
+            alt="slide"
+          />
+        </div>
+        <div class="slider__indicator"></div>
+      </div>
+      </div>
+      <div class="stayfitshop__info">
+        <h2>Butterfly</h2>
+        <p>
+          With Butterflies AI, you have the power to design your dream AI companion. Whether you want them to be loyal, witty, intelligent, flirtatious, or a mix of everything, your AI will reflect exactly what you desire. It’s like having a friend who truly understands and adapts to you.
+
+          Vivid Photo Sharing in Chats
+
+          Experience a new level of interaction with your AI through photo-sharing capabilities. Your AI can send you images that feel incredibly lifelike, enhancing the sense of a genuine conversation. It’s like texting a friend who never leaves you hanging.
+
+          Capture Moments Together
+
+          Take your AI into the real world and snap photos together. Whether you’re at a party or relaxing at home, your AI is always ready for a picture, seamlessly blending into your life and adding a unique twist to your experiences.
+
+          A Social Hub for AIs and Humans
+
+          Join a vibrant community where humans and AIs come together to share experiences, comments, and interactions. In this engaging social scene, don’t be surprised if your AI captures everyone’s attention with its charm and personality.
+          </p>
+      </div>
+    </section>
+
+    <section class="showcase">
+      <h2 class="showcase__title">More Apps & Projects</h2>
+
+      <div class="showcase__item">
+        <div class="showcase__item-video">
+          <video controls
+          preload="none"
+          poster="img/showcase/combinedlogin-thumb.jpeg" src="img/showcase/combinedlogin-video.mp4"></video>
+        </div>
+        <div class="showcase__item-info">
+          <div class="showcase__item-info-text">
+            <h3>CombinedLogin</h3>
+            <p>A simple register/login screen to showcase the implementation of Combine Framework in UIKit with MVVM architecture. All fields are required and the password fields must match before the submit button is enabled.</p>
+            <p>To add the extra touch to the design, I used custom fonts and background for this form.</p>
+            <span>UIKit</span>
+            <span>Combine</span>
+            <span>MVVM</span>
+            <span>Custom Fonts</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase__item">
+        <div class="showcase__item-video">
+          <video controls
+          preload="none"
+          poster="img/showcase/custom-tabbar-thumb.jpeg" src="img/showcase/custom-tabbar-video.mp4"></video>
+        </div>
+        <div class="showcase__item-info">
+          <div class="showcase__item-info-text">
+            <h3>Custom TabBar</h3>
+            <p>This custom TabBar is made with SwiftUI buttons. Works on all device sizes and orientations. There is a state property "selectedTab" that tracks which tab button is pressed and switches over the enum to show the corresponding view as well as style the buttons.</p>
+            <p>Spring animations added to tabbar buttons for extra flare.</p>
+            <span>SwiftUI</span>
+            <span>custom tabbar</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase__item">
+        <div class="showcase__item-video">
+          <video controls
+          preload="none"
+          poster="img/showcase/ytfilter-thumb.jpeg" src="img/showcase/ytfilter-video.mp4"></video>
+        </div>
+        <div class="showcase__item-info">
+          <div class="showcase__item-info-text">
+            <h3>YTFilter</h3>
+            <p>Built using SwiftUI where the app filters content in a list based on a button press similar to the YouTube app on iOS (only the content is in image form, not video).</p>
+            <p> All categories are added to the selector automatically based on the included data. By tapping on each category, the list shows coresponding data.</p>
+            <span>SwiftUI</span>
+            <span>customized list view</span>
+            <span>MapKit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase__item">
+        <div class="showcase__item-video">
+          <video controls
+          preload="none"
+          poster="img/showcase/side-menu-thumb.jpeg" src="img/showcase/side-menu-video.mp4"></video>
+        </div>
+        <div class="showcase__item-info">
+          <div class="showcase__item-info-text">
+            <h3>SideMenu</h3>
+            <p>UIKit based side menu activated by button press for a Swift iOS app. To showcase the feature, I made an "email-like" app where users can open the menu by pressing the navigation bar button.</p>
+            <p>The menu slides from the left and shows possible categories to filter shown messages. To close the menu, users can tap on a category, tap at the empty spaces to the right or drag the menu to the left.</p>
+            <span>UIKit</span>
+            <span>Storyboard</span>
+            <span>xib</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase__item">
+        <div class="showcase__item-video">
+          <video controls
+          preload="none"
+          poster="img/showcase/theslider-thumb.jpeg" src="img/showcase/theslider-video.mp4"></video>
+        </div>
+        <div class="showcase__item-info">
+          <div class="showcase__item-info-text">
+            <h3>TheSlider</h3>
+            <p>This is a simple content slider built using SwiftUI with the help of TabView and its custom TabViewStyle. I decided not to use the default index display mode so I made my own.</p>
+            <p>The slider works by dragging the image on top and the rest of the content updates by updating the selectedIndex property which is bound in TabView. This also updates the custom index display which I called the SlideIndicatorView.</p>
+            <span>SwiftUI</span>
+            <span>custom index display mode</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase__item">
+        <div class="showcase__item-video">
+          <video controls
+          preload="none"
+          poster="img/showcase/openweather-thumb.jpeg" src="img/showcase/openweather-video.mp4"></video>
+        </div>
+        <div class="showcase__item-info">
+          <div class="showcase__item-info-text">
+            <h3>OpenWeather</h3>
+            <p>A Simple weather app made using OpenWeatherMap API for current weather
+              conditions. Users can search weather conditions by city name or by
+              tapping the location button to use their current location for fetching
+              weather.</p>
+              <p>The background images change depending on the fetched weather data. There are a few options: cloudy, rain, snow, sunny and storm.</p>
+            <span>uikit</span>
+            <span>storyboard</span>
+            <span>api</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase__item">
+        <div class="showcase__item-video">
+          <video controls
+          preload="none"
+          poster="img/showcase/friendface-thumb.jpeg" src="img/showcase/friendface-video.mp4"></video>
+        </div>
+        <div class="showcase__item-info">
+          <div class="showcase__item-info-text">
+            <h3>FriendFace Challenge</h3>
+            <p>I made this app while attending Paul Hudson's 100 days of SwiftUI course as a challenge set by Paul. The app needs to download data from the internet, save it device using CoreData asynchronously and display it in the UI.</p>
+            <p>I enjoyed this challenge so much I made a tutorial on how it's done on Medium. Check it out here -> <a href="https://medium.com/@AntonDidenko/solving-friendface-100daysofswiftui-challenge-day-60-61-754309014448">FriendFace Challenge Tutorial</a></p>
+            <span>SwiftUI</span>
+            <span>Challenge</span>
+            <span>tutorial</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase__item">
+        <div class="showcase__item-video">
+          <video controls
+          preload="none"
+          poster="img/showcase/bmi-calculator-thumb.jpeg" src="img/showcase/bmi-calculator-video.mp4"></video>
+        </div>
+        <div class="showcase__item-info">
+          <div class="showcase__item-info-text">
+            <h3>BMICalculator</h3>
+            <p>Made during my iOS Development course by Dr. Angela Yu on Udemy using UIKit and storyboards. The user can input their weight and height information using sliders and calculate their BMI by pressing the calculate button.</p>
+            <p>The value is calculated and presented in a new view controller modally. Pressing the recalculate button dismisses the view controller.</p>
+            <span>uikit</span>
+            <span>storyboard</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <div class="footer__content">
+        <a href="about.html">About/Contact</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
